@@ -35,10 +35,35 @@ export default function Home(){
   ]
 
   const priceList = [
-    { name: 'Blood Test', price: '$50' },
+
+        { name: 'Blood Test', price: '$50' },
     { name: 'X-Ray', price: '$100' },
     { name: 'MRI Scan', price: '$300' },
-    { name: 'ECG', price: '$75' }
+    { name: 'ECG', price: '$75' },
+        { name: 'Blood Test', price: '$50' },
+    { name: 'X-Ray', price: '$100' },
+    { name: 'MRI Scan', price: '$300' },
+    { name: 'ECG', price: '$75' },
+        { name: 'Blood Test', price: '$50' },
+    { name: 'X-Ray', price: '$100' },
+    { name: 'MRI Scan', price: '$300' },
+    { name: 'ECG', price: '$75' },
+        { name: 'Blood Test', price: '$50' },
+    { name: 'X-Ray', price: '$100' },
+    { name: 'MRI Scan', price: '$300' },
+    { name: 'ECG', price: '$75' },
+        { name: 'Blood Test', price: '$50' },
+    { name: 'X-Ray', price: '$100' },
+    { name: 'MRI Scan', price: '$300' },
+    { name: 'ECG', price: '$75' },
+        { name: 'Blood Test', price: '$50' },
+    { name: 'X-Ray', price: '$100' },
+    { name: 'MRI Scan', price: '$300' },
+    { name: 'ECG', price: '$75' },
+        { name: 'Blood Test', price: '$50' },
+    { name: 'X-Ray', price: '$100' },
+    { name: 'MRI Scan', price: '$300' },
+    { name: 'ECG', price: '$75' },
   ]
 
   const reviews = [
@@ -74,13 +99,9 @@ export default function Home(){
             <form className={styles.searchForm} onSubmit={(e)=>e.preventDefault()}>
               <Input type="select" placeholder="Branch" options={[{label:'Main Center', value:'main'},{label:'Uptown', value:'uptown'}]} />
               <Input type="select" placeholder="Specialization" options={[{label:'Cardiology', value:'cardiology'},{label:'Radiology', value:'radiology'}]} />
-              <Input type="date" placeholder="Day" />
               <Input type="text" placeholder="Search doctor by name" />
               <Button variant="primary">Search</Button>
             </form>
-          </div>
-        </div>
-      </header>
             <section className={styles.doctorAppointments}>
                 <div className={styles.sectionInner}>
                     <h2>Book an Appointment with Our Doctors</h2>
@@ -103,8 +124,13 @@ export default function Home(){
                     </div>
                 </div>
             </section>
+
+          </div>
+        </div>
+      </header>
+
             <section className={styles.testPrices}>
-                <div className={styles.sectionInner}>
+                <div className={styles.sectionprices}>
                     <h2>Diagnostic Test Prices</h2>
                     <div className={styles.searchBar}>
                         <div className={styles.searchContainer}>

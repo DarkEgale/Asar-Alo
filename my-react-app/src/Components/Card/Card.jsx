@@ -14,7 +14,7 @@ export default function Card({ image, title, description, linkText, onClick, hre
       <div className={styles.content}>
         <h3 className={styles.title}>{title}</h3>
         <p className={styles.description}>{description}</p>
-        <Button variant="outline" onClick={handleClick}>{linkText}</Button>
+        <Button variant="success" onClick={handleClick}>{linkText}</Button>
       </div>
     </div>
   )
