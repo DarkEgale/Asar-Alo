@@ -58,7 +58,7 @@ export default function Home(){
   }
 
   return (
-    <div className={styles.page} id="home">
+    <div className={styles.page}>
       <header className={styles.hero}>
         <div className={styles.heroInner}>
           <div className={styles.heroText}>
@@ -160,22 +160,6 @@ export default function Home(){
           </div>
         </div>
       </section> */}
-
-      <section className={styles.about} id="about">
-        <div className={styles.sectionInner}>
-          <h2>About Us</h2>
-          <p>We are a leading diagnostic center committed to providing accurate and compassionate healthcare services. Our team of experts uses state-of-the-art technology to ensure the best outcomes for our patients.</p>
-        </div>
-      </section>
-
-      <section className={styles.contact} id="contact">
-        <div className={styles.sectionInner}>
-          <h2>Contact Us</h2>
-          <p>Get in touch with us for any inquiries or appointments.</p>
-          <p>Email: info@foodexpress.com</p>
-          <p>Phone: +1 (555) 123-4567</p>
-        </div>
-      </section>
 
         </div>
     )
