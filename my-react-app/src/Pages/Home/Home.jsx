@@ -135,7 +135,7 @@ export default function Home(){
         </div>
       </section>
 
-      {/* <section className={styles.reviews}>
+      <section className={styles.reviews}>
         <div className={styles.sectionInner}>
           <h2>Patient Reviews</h2>
           <div className={styles.reviewList}>
@@ -159,8 +159,7 @@ export default function Home(){
             </form>
           </div>
         </div>
-      </section> */}
-
+      </section> 
         </div>
     )
 }
