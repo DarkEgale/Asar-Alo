@@ -11,9 +11,8 @@ export default function App(){
   return (
     <>
       <Navbar />
-
+        <Home />
       <Routes>
-        <Route path="jk" element={<Home />} />
         <Route path="/find-care" element={<FindCare />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />

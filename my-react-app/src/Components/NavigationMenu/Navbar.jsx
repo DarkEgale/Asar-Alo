@@ -18,7 +18,6 @@ export default function Navbar(){
                     <span className="bar"></span>
                 </button>
                 <ul className={menuOpen ? 'nav-menu active' : 'nav-menu'}>
-                    <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
                     <li><Link to="/find-care" onClick={() => setMenuOpen(false)}>Find Care</Link></li>
                     <li><Link to="/services" onClick={() => setMenuOpen(false)}>Services</Link></li>
                     <li><Link to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
