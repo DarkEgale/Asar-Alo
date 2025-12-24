@@ -65,7 +65,7 @@ export default function Home(){
             <h1>Comprehensive Diagnostic Care, Close to You</h1>
             <p>Fast, accurate diagnostics with compassionate care — book appointments, find specialists, and get results online.</p>
             <div className={styles.ctaRow}>
-              <Button variant="primary">Book Appointment</Button>
+              <Button variant="success">Book Appointment</Button>
               <Button variant="outline">Learn More</Button>
             </div>
           </div>
@@ -88,17 +88,17 @@ export default function Home(){
                         <div className={styles.doctorCard}>
                             <h4>Dr. Sarah Johnson</h4>
                             <p>Cardiologist</p>
-                            <Button variant="primary">Book Now</Button>
+                            <Button variant="success">Book Now</Button>
                         </div>
                         <div className={styles.doctorCard}>
                             <h4>Dr. Michael Lee</h4>
                             <p>Radiologist</p>
-                            <Button variant="primary">Book Now</Button>
+                            <Button variant="success">Book Now</Button>
                         </div>
                         <div className={styles.doctorCard}>
                             <h4>Dr. Emily Davis</h4>
                             <p>Neurologist</p>
-                            <Button variant="primary">Book Now</Button>
+                            <Button variant="success">Book Now</Button>
                         </div>
                     </div>
                 </div>

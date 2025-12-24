@@ -30,7 +30,6 @@ const Services = () => {
   return (
     <div className="services-page">
       <div className="page-container">
-        <h1>Our Services</h1>
         <ServiceSection services={services} />
       </div>
     </div>
