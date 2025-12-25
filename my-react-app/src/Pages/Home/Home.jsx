@@ -6,6 +6,10 @@ import Button from '../../Components/Button/Button'
 import Input from '../../Components/Input/Input'
 import ServiceSection from '../../Components/ServiceSection/ServiceSection'
 
+import cardio from '../../assets/images/cardiologist.jpeg'
+import radiology from '../../assets/images/radiologist.jpeg'
+import neurology from '../../assets/images/neurologist.jpeg'
+
 export default function Home(){
   const [searchTerm, setSearchTerm] = useState('')
   const [reviewForm, setReviewForm] = useState({ name: '', rating: '', comment: '' })
@@ -107,17 +111,20 @@ export default function Home(){
                     <h2>Book an Appointment with Our Doctors</h2>
                     <div className={styles.doctorGrid}>
                         <div className={styles.doctorCard}>
-                            <h4>Dr. Sarah Johnson</h4>
+                        <img src={cardio} alt="" />
+                            <h4>Prof. Dr. Abdul Wadud Chowdhury</h4>
                             <p>Cardiologist</p>
                             <Button variant="success">Book Now</Button>
                         </div>
                         <div className={styles.doctorCard}>
-                            <h4>Dr. Michael Lee</h4>
+                          <img src={radiology} alt="" />
+                            <h4>Prof.Dr. Sharmin Akhtar Rupa</h4>
                             <p>Radiologist</p>
                             <Button variant="success">Book Now</Button>
                         </div>
                         <div className={styles.doctorCard}>
-                            <h4>Dr. Emily Davis</h4>
+                          <img src={neurology} alt="" />
+                            <h4>Dr. S. M. Monowar Hossain</h4>
                             <p>Neurologist</p>
                             <Button variant="success">Book Now</Button>
                         </div>

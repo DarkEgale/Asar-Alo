@@ -45,6 +45,7 @@
 .success {
   background: linear-gradient(180deg, #16a34a, #15803d);
   color: #fff;
+  width: 100%;
 }
 
 .warning {
