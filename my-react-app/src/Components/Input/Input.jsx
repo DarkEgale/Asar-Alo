@@ -24,8 +24,10 @@ export default function Input({ type = 'text', placeholder = '', options = [], v
   }
 
   return (
-    <div className={styles.field}>
-      <input className={styles.input} type={type} placeholder={placeholder} value={value} onChange={onChange} {...rest} />
+    <>
+     <div className={styles.field}>
+      <input className={styles.input_full} type={type} placeholder={placeholder} value={value} onChange={onChange} {...rest} />
     </div>
+    </>
   )
 }

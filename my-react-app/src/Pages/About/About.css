@@ -4,7 +4,7 @@
   min-height: 100vh;
 }
 
-.page-container {
+.page-container-about {
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -37,10 +37,10 @@
 }
 
 .stat {
-  background: #fff;
+  background:linear-gradient(180deg,rgb(9, 125, 44),rgba(0, 0, 255, 0.084));
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(2, 6, 23, 0.04);
+  box-shadow: 0 8px 20px rgba(2, 6, 23, 0.262);
   flex: 1;
   text-align: center;
 }
@@ -59,7 +59,7 @@
 
 @media (max-width: 768px) {
   .about-page {
-    padding: 32px 16px;
+    padding-top: 100px;
   }
 
   .about-page h1 {

@@ -28,8 +28,9 @@ const Contact = () => {
   return (
     <div className="contact-page">
       <div className="page-container">
-        <h1>Contact Us</h1>
+        
         <div className="contact-content">
+         
           <div className="contact-info">
             <h2>Get in Touch</h2>
             <p>We're here to help you with any questions or concerns.</p>

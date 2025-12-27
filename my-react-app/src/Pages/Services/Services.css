@@ -1,13 +1,9 @@
-.services-page {
-  padding: 40px 20px;
-  background: #f8fafc;
-  min-height: 100vh;
-  padding-top: 50px;
-}
 
-.page-container {
+
+.page-container-services {
   max-width: 1100px;
   margin: 0 auto;
+  ;
 }
 
 .services-page h1 {

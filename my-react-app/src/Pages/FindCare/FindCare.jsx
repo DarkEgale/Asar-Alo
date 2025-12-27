@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Button from '../../Components/Button/Button';
 import Input from '../../Components/Input/Input';
 import './FindCare.css';
+import Card from '../../Components/Card/Card';
 
 const FindCare = () => {
   const [searchForm, setSearchForm] = useState({
@@ -26,7 +27,7 @@ const FindCare = () => {
 
   return (
     <div className="find-care-page">
-      <div className="page-container">
+      <div className="page-container_findcare">
         <h1>Find Your Care</h1>
         <p>Search for doctors, specialists, and healthcare services in your area.</p>
 
@@ -85,26 +86,30 @@ const FindCare = () => {
         <div className="quick-links">
           <h2>Quick Access</h2>
           <div className="links-grid">
-            <div className="link-card">
-              <h3>Emergency Care</h3>
-              <p>24/7 emergency services available</p>
-              <Button variant="secondary">Call Now</Button>
-            </div>
-            <div className="link-card">
-              <h3>Book Appointment</h3>
-              <p>Schedule your visit online</p>
-              <Button variant="secondary">Book Now</Button>
-            </div>
-            <div className="link-card">
-              <h3>Health Packages</h3>
-              <p>Comprehensive health checkups</p>
-              <Button variant="secondary">View Packages</Button>
-            </div>
-            <div className="link-card">
-              <h3>Test Results</h3>
-              <p>Check your test results online</p>
-              <Button variant="secondary">View Results</Button>
-            </div>
+            
+              <Card
+                image=""
+                content="Comprehensive health checkups"
+                title="Health Package"
+                description="Comprehensive health checkups"
+                linkText="View Package"
+              />
+            
+              <Card
+              image=""
+              content="Medical Consultation Services"
+              title="Consultation"
+              description="Medical Consultation Services"
+              linkText="View Package"
+              />
+            
+            <Card
+              image=""
+              content="Emergency Services"
+              title="Emergency"
+              description="Emergency Contacts and Services"
+              linkText="View Package"
+              />
           </div>
         </div>
       </div>

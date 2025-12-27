@@ -28,8 +28,8 @@ const Services = () => {
   ];
 
   return (
-    <div className="services-page">
-      <div className="page-container">
+    <div className="services-page-section">
+      <div className="page-container-services">
         <ServiceSection services={services} />
       </div>
     </div>

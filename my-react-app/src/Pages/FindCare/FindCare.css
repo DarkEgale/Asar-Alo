@@ -3,9 +3,11 @@
   background: #f8fafc;
   min-height: 100vh;
   padding-top: 50px;
+  display: flex;
+  flex-direction: column !important;
 }
 
-.page-container {
+.page-container-findcare {
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -25,10 +27,10 @@
 }
 
 .search-section {
-  background: #fff;
+  background:linear-gradient(180deg,rgb(9, 125, 44),rgba(44, 151, 30, 0.559));
   padding: 40px;
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(2, 6, 23, 0.04);
+  box-shadow: 0 8px 20px rgba(2, 6, 23, 0.517);
   margin-bottom: 40px;
 }
 
@@ -68,7 +70,7 @@
 }
 
 .link-card {
-  background: #fff;
+  background: white;
   padding: 30px 20px;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(2, 6, 23, 0.04);
@@ -95,7 +97,7 @@
 
 @media (max-width: 768px) {
   .find-care-page {
-    padding: 32px 16px;
+    padding-top: 100px;
   }
 
   .find-care-page h1 {

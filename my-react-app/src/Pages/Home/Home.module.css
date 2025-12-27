@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   gap: 200px;
+  box-sizing: border-box;
 }
 
 .hero {
@@ -248,7 +249,7 @@
   height: fit-content;
   display: flex;
   justify-content: center;
-  margin-top: 400px;
+  padding-top: 400px;
 }
 
 
@@ -392,7 +393,7 @@
   .heroCard {
     width: 100%;
     padding: 20px;
-    border-radius: 12px;    overflow: hidden;  }
+    border-radius: 12px;     }
 
   .searchForm {
     gap: 16px;
@@ -449,14 +450,29 @@
   .doctorAppointments,
   .reviews,
   .contact {
-    padding: 32px 16px;
+    padding: 0;
+  }
+  .sectionInner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .doctorGrid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 16px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   justify-self: center;
+   margin-left: 0px;
+   margin-right: 0px;
+   width: 100%;
   }
-
+  .doctorCard{
+    display: flex;
+    justify-self: center;
+  }
   .reviewList {
     grid-template-columns: 1fr;
     gap: 16px;
@@ -476,6 +492,10 @@
 
   .reviewForm .field {
     width: 100%;
+  }
+  .testPrices{
+    margin-top: 30vh;
+    overflow-y: scroll;
   }
 }
 
@@ -540,9 +560,10 @@
     font-size: 18px;
   }
 .testPrices {
-    width: calc(100% - 40%);
-    background: linear-gradient(180deg,rgb(9, 125, 44),transparent);
-    border: 1px solid black;
+    width: calc(100%);
+    padding-top: 150px;
+    overflow-y: scroll;
+    padding-bottom: 50px;
 }
 
 
